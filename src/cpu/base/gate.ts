@@ -1,4 +1,4 @@
-import { Bit } from "./type";
+import { Bit } from './type'
 
 export const not = (i: Bit): Bit => i === 1 ? 0 : 1
 

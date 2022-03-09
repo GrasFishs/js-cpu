@@ -1,10 +1,10 @@
-import { and, nor, not } from "../base/gate";
-import { Bit } from "../base/type";
+import { and, nor, not } from '../base/gate'
+import { Bit } from '../base/type'
 
 // 
 export class RSLatch {
-  Q: Bit = 1;
-  _Q: Bit = 1;
+  Q: Bit = 1
+  _Q: Bit = 1
 
 
   setup(set: Bit, reset: Bit) {

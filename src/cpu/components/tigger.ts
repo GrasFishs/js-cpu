@@ -1,8 +1,8 @@
-import { not } from "../base/gate";
-import { Bit } from "../base/type";
-import { DLatch } from "./latch";
+import { not } from '../base/gate'
+import { Bit } from '../base/type'
+import { DLatch } from './latch'
 
-class DTrigger {
+export class DTrigger {
   d1 = new DLatch()
   d2 = new DLatch()
 
